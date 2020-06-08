@@ -26,7 +26,7 @@ def run_episodes(env):
             state = next_state
             game_rew += rew
             if done:
-                print("Epoch :" + str(ep) + " Score :" + str(step))
+                print("Epoch :" + str(ep) + " Score :" + str(-1*step))
                 avg_reward += game_rew
                 break
 
