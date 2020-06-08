@@ -3,7 +3,7 @@ import gym
 import numpy as np
 
 ENV_NAME = 'MountainCar-v0'
-model = load_model('dqn_150.h5')
+model = load_model('target_dqn.h5')
 EPISODES = 100
 
 
