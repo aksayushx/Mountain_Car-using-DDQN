@@ -9,9 +9,9 @@ MountainCar-v0 defines "solving" as getting average reward of -110.0 over 100 co
 
 The `target_dqn.h5` model gets an average score of -99.67 in 100 consecutive episodes ans thus solves the Mountain Car environment.
 
-**Files**
-1. *target_dqn.h5* : A trained model for predicting Q values for state action pairs.
-2. *train.py* : Contains detailed implementation of the DDQN for solving Mountain Car.
-3. *q_network.py* : Contains the neural network architechture for predicting Q values.
-4. *test.py* : Runs the trained model on the environment for 100 episodes and returns the mean score.
+## Files
+1. **target_dqn.h5** : A trained model for predicting Q values for state action pairs.
+2. **train.py** : Contains detailed implementation of the DDQN for solving Mountain Car.
+3. **q_network.py** : Contains the neural network architechture for predicting Q values.
+4. **test.py** : Runs the trained model on the environment for 100 episodes and returns the mean score.
 
