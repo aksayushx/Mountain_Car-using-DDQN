@@ -7,7 +7,7 @@ A car is on a one-dimensional track, positioned between two "mountains". The goa
 
 MountainCar-v0 defines "solving" as getting average reward of -110.0 over 100 consecutive trials.
 
-The `target_dqn.h5` model gets an average score of -99.67 in 100 consecutive episodes ans thus solves the Mountain Car environment.
+The `target_dqn.h5` model gets an average score of **-99.67** in 100 consecutive episodes ans thus solves the Mountain Car environment.
 
 ## Files
 1. **target_dqn.h5** : A trained model for predicting Q values for state action pairs.
