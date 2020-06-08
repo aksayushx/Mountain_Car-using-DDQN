@@ -21,3 +21,21 @@ After 750 episodes of training
 3. **q_network.py** : Contains the neural network architechture for predicting Q values.
 4. **test.py** : Runs the trained model on the environment for 100 episodes and returns the mean score.
 
+### Testing
+
+```
+Epoch :88 Score :-104
+Epoch :89 Score :-131
+Epoch :90 Score :-104
+Epoch :91 Score :-104
+Epoch :92 Score :-88
+Epoch :93 Score :-130
+Epoch :94 Score :-103
+Epoch :95 Score :-85
+Epoch :96 Score :-104
+Epoch :97 Score :-104
+Epoch :98 Score :-102
+Epoch :99 Score :-129
+
+Average Reward  in 100 games : -100.58
+```
